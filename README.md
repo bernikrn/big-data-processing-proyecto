@@ -8,6 +8,14 @@ El programa de Scala se suscribe al topic "devices" de Kafka para poder consumir
 Los datos leidos son parseados a formato Json y guardados en formato parquet, para que luego puedan ser leidos por el proceso Batch.
 ![tree](images/bd3.png)
 
+Directorios generados con archivos .parquet
+
+
+![parquet](images/bd4.png)
+
+Contenido de un archivo .parquet
+
+
 Los datos en formato Json son enriquesidos con metadata obtenida de la tabla "user_metadata" de la base de datos. 
 
 Luego con esos datos ya enriquesidos, se realizan las agregaciones y los resultados son guardados en las tablas "bytes_agg_antenna", "bytes_agg_user" y "bytes_agg_app" de la base de datos.
