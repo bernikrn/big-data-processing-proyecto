@@ -1,5 +1,5 @@
-# big-data-processing-proyecto
-Proyecto final de Big Data Processing de Bernardo Koron
+# Big Data Processing
+## Proyecto final de Big Data Processing de Bernardo Koron
 
 
 Para iniciar el proyecto se debe iniciar la instancia SQL de GCP y luego ejecutar el archivo "jdbcProvisioner.scala" que creara las tablas que luego seran utilizadas, y tambien carga las filas de la tabla de metadata "user_metadata".
